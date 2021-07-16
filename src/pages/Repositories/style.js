@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 export const Main = styled.div`
     box-sizing: border-box; 
-    width: 100vw;
+    
     padding-bottom: 70px;
 `;
 
@@ -42,6 +42,15 @@ export const ListItem = styled.li`
     }
 `;
 
+export const NoRepository = styled.h1`
+    text-align: center;
+    display: block;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5%;
+`;
+
 export const LinkName = styled(Link)`
     text-align: center;
     display: block;
@@ -51,6 +60,6 @@ export const LinkName = styled(Link)`
     padding: 15px;
     margin: 0 auto;
     background-color: purple;
-    width: 25%;
+    width: 15%;
     border-radius: 50px;
 `;

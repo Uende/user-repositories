@@ -2,7 +2,14 @@ import styled from 'styled-components';
 
 export const Main = styled.div`
     width: 100%;
-    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const Container = styled.div`
+    width: 100%;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,4 +67,20 @@ export const Button = styled.button`
     height: 54px;
     padding: 10px;
     border: none;
+
+    &:hover, &:focus{
+        cursor: pointer;
+    }
+
+`;
+
+export const errorMsg = styled.span`
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    display: block;
+    margin-top: -10%;
+    width: 100%;
+    text-align: center;
 `;

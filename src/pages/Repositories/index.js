@@ -21,12 +21,13 @@ export default function Respositories() {
         <S.Main>
             <S.Title>Repositório(s)</S.Title>
             <S.List>
-                {
+                {   
+                    repositories != '' ?
                     repositories.map(repository => {
                         return (
                             <S.ListItem>{repository}</S.ListItem>
                         )
-                    })
+                    }) : <S.NoRepository>Esse usuário não possui nenhum repositório &#9785;</S.NoRepository>
                 }
             </S.List>
             <S.LinkName to='/'>Voltar</S.LinkName>
