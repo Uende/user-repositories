@@ -81,6 +81,7 @@ export const errorMsg = styled.span`
     font-weight: 600;
     display: block;
     margin-top: -10%;
+    margin-bottom: 10%;
     width: 100%;
     text-align: center;
 `;
