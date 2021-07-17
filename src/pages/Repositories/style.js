@@ -40,6 +40,10 @@ export const ListItem = styled.li`
         color: purple;
         cursor: context-menu;
     }
+
+    @media(max-width: 850px){
+        margin-left: -8%;
+    }
 `;
 
 export const NoRepository = styled.h1`
@@ -62,4 +66,8 @@ export const LinkName = styled(Link)`
     background-color: purple;
     width: 15%;
     border-radius: 50px;
+
+    @media(max-width: 850px){
+        width: 35%;
+    }
 `;
