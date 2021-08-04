@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import axios from 'axios';
-//Com o History você consegue contrar a página que você está, mudá-la e etc
+//Com o History você consegue controlar a página que você está, mudá-la e etc
 import { useHistory } from 'react-router-dom';
 import * as S from './style';
 
